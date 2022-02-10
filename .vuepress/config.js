@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'fuckTimer',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,26 +34,21 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Commands',
+        link: '/commands/',
       },
       {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'GitHub',
+        link: 'https://github.com/fuckTimer'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/overview/': [
         {
-          title: 'Guide',
+          title: 'Overview',
           collapsable: false,
           children: [
-            '',
-            'using-vue',
+            '/commands/',
           ]
         }
       ],

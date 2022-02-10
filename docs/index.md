@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://raw.githubusercontent.com/fuckTimer/vue-docs/main/logo.png
 tagline: Documentation site for fuckTimer
 actionText: Overview →
 actionLink: /overview/

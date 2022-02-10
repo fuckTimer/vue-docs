@@ -1,6 +1,7 @@
 ---
 home: true
 heroImage: https://raw.githubusercontent.com/fuckTimer/vue-docs/main/logo.png
+heroText: # Hide title
 tagline: Documentation site for fuckTimer
 actionText: Overview →
 actionLink: /overview/

@@ -27,15 +27,16 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    repo: 'https://github.com/fuckTimer/vue-docs',
+    editLinks: true,
+    docsDir: 'docs',
+    docsBranch: 'main',
+    editLinkText: 'Edit this page on GitHub',
+    lastUpdated: true,
     nav: [
       {
-        text: 'Commands',
-        link: '/commands/',
+        text: 'Overview',
+        link: '/overview/',
       },
       {
         text: 'GitHub',

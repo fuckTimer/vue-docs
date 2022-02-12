@@ -26,7 +26,11 @@ module.exports = {
    *
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
+
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
+    overrideTheme: 'dark',
+    prefersTheme: 'dark',
     repo: 'https://github.com/fuckTimer/vue-docs',
     editLinks: true,
     docsDir: 'docs',

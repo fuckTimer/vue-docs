@@ -52,12 +52,14 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/overview/': [
+      '/': [
         {
-          title: 'Overview',
+          title: 'Content',
           collapsable: false,
           children: [
+            '/overview/',
             '/commands/',
+            '/zoning/',
           ]
         }
       ],
